@@ -21,9 +21,7 @@
 / {
   behaviors {
     #include "macros.dtsi"
-    #include "version.dtsi"
-
-    hm: homerow_mods {
+    #includ
         compatible = "zmk,behavior-hold-tap";
         label = "HOMEROW_MODS";
         #binding-cells = <2>;
